@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Constructora XYZ</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header { background: #333; color: white; padding: 20px; text-align: center; }
+    nav { background: #555; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 40px; }
+    .hero { background: url('https://via.placeholder.com/1200x400') center/cover; color: white; text-align: center; padding: 100px 20px; }
+    .services, .projects { display: flex; gap: 20px; flex-wrap: wrap; }
+    .card { border: 1px solid #ccc; padding: 20px; flex: 1; min-width: 250px; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; }
+    button { background: orange; border: none; padding: 10px 20px; cursor: pointer; }
+
+    /* Botón flotante WhatsApp */
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Constructora XYZ</h1>
+  <p>Construcción tradicional y Steel Framing</p>
+</header>
+
+<nav>
+  <a href="#">Inicio</a>
+  <a href="#sobre">Nosotros</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#proyectos">Proyectos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+  <h2>Tu proyecto, nuestra prioridad</h2>
+  <button onclick="window.location.href='https://wa.me/549260XXXXXXX'">Solicitar Presupuesto</button>
+</section>
+
+<section id="sobre">
+  <h2>Sobre Nosotros</h2>
+  <p>Somos una empresa constructora con amplia experiencia en obras residenciales y comerciales. Nos destacamos por la calidad, cumplimiento y responsabilidad.</p>
+</section>
+
+<section id="servicios">
+  <h2>Servicios</h2>
+  <div class="services">
+    <div class="card">Construcción de viviendas</div>
+    <div class="card">Remodelaciones</div>
+    <div class="card">Obras comerciales</div>
+    <div class="card">Dirección de obra</div>
+    <div class="card"><strong>Steel Framing</strong><br>Construcción en seco, rápida, eficiente y moderna.</div>
+  </div>
+</section>
+
+<section>
+  <h2>¿Qué es Steel Framing?</h2>
+  <p>El sistema Steel Framing es un método de construcción en seco basado en perfiles de acero galvanizado. Permite obras más rápidas, limpias y eficientes energéticamente, con excelente aislación térmica y acústica.</p>
+</section>
+
+<section id="proyectos">
+  <h2>Proyectos</h2>
+  <div class="projects">
+    <div class="card">Proyecto 1<br><img src="https://via.placeholder.com/300" width="100%"></div>
+    <div class="card">Proyecto 2<br><img src="https://via.placeholder.com/300" width="100%"></div>
+    <div class="card">Proyecto 3<br><img src="https://via.placeholder.com/300" width="100%"></div>
+  </div>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Teléfono: +54 9 260 XXXX</p>
+  <p>Email: contacto@constructoraxyz.com</p>
+  <p>Ubicación: Mendoza, Argentina</p>
+</section>
+
+<footer>
+  <p>© 2026 Constructora XYZ - Todos los derechos reservados</p>
+</footer>
+
+<!-- Botón flotante WhatsApp -->
+<a class="whatsapp" href="https://wa.me/549260XXXXXXX" target="_blank">
+  WhatsApp
+</a>
+
+</body>
+</html>
